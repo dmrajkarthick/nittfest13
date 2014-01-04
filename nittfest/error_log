@@ -1,0 +1,5 @@
+[23-Dec-2013 17:37:22] PHP Fatal error:  Uncaught exception 'Exception' with message 'MySQL Error: Too many connections' in /home/rk/subdomain/archive.nittfest.in/13/admin/assets/mysqlconnector.php:26
+Stack trace:
+#0 /home/rk/subdomain/archive.nittfest.in/13/index.php(80): run_query('SELECT * FROM `...', false)
+#1 {main}
+  thrown in /home/rk/subdomain/archive.nittfest.in/13/admin/assets/mysqlconnector.php on line 26

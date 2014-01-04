@@ -5,9 +5,9 @@ if(!defined('NAMESPACE111222333')){
 	echo '<hr/>'.$_SERVER['SERVER_SIGNATURE'];
 	exit(1);
 }
-$SQLuser='root';
-$SQLpassword='rajkarthick';
+$SQLuser='rk_n13';
+$SQLpassword='nittfest2013';
 $SQLserver='localhost';
 $SQLport='3306';
-$SQLdatabase='nittfest';
+$SQLdatabase='rk_n13';
 ?>

@@ -11,7 +11,7 @@ $KEY1='23r3rf276urd6gu7yru7';
 $KEY2='qnN32JJ23j42JKNJJj34n2jkklnakjsd3';
 $KEY3='jkhn32hBH1x4B3Hj4bkj3j2k23jhb4sa';
 
-$IMAGEPATH="http://www.nittfest.in";
+$IMAGEPATH="http://archive.nittfest.in/13";
 //session persistence time
 $TIME=18000;
 $TABLEPREFIX="";

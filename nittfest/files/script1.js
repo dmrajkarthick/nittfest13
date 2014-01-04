@@ -183,6 +183,8 @@ $(".tribe").animate({bottom:"4%", ease:Bounce.easeOut},1000,function(){$(this).s
 
 });
 load.progress( function( isBroken, $images, $proper, $broken ){
+		if(isBroken)
+			console.log(isBroken, $images, $proper, $broken);
 		var p=($proper.length + $broken.length)/$images.length;
     $("#l-progress").html(Math.floor(p*100)+"% Complete");
 		if($broken.length)
